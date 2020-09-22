@@ -1,0 +1,118 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+    background-color: peachpuff;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Zilla Slab', serif;       
+}
+.container{
+    max-width: 1000px;
+    background-color: #FF5733  ;
+    margin: 0 auto;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: none;
+
+}
+.profile-image{
+    width:120px;
+    height:120px;
+    border: 5px solid white;
+    border-radius: 50%;
+    float: left;
+
+}
+.header-name{
+    float: left;
+    padding: 40px ;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* h1,h2,h3,h4,h5,h6{
+    color: lightblue;
+} */
+.header-contact{
+   float: right;
+   padding:30px;
+}
+.header-contact p a{
+    text-decoration: none;
+    font-weight: bold;
+    color:blue
+    font-size: large;
+}
+.header-contact a:hover{
+    /* text-decoration: underline; */
+    color:white
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    max-width:1000px;
+    border: 3px solid white;
+    margin: 20px auto;
+    border-bottom: none;
+
+
+}
+/* #personal-information{
+
+}
+.content{
+
+} */
+.nayan{
+    width: 35%;
+    float: left;
+    color: white;
+    font-weight: bold;
+
+}
+.tania{
+    width: 65%;
+    float: left;
+    text-align: justify;
+
+}
+.common-hr{
+    border: 1px solid white;
+    margin: 20px auto;
+    margin-bottom: none;
+}
+section{
+    margin: 20px;
+}
+.edu-left{
+    width: 45%;
+    float: left;
+}
+.edu-right{
+
+    width: 45%;
+    float: right;
+}
+footer a{
+     text-decoration: none ;
+     
+     font-weight: bold;
+     margin:40px;
+     font-size: large;
+
+     
+}
+footer p{
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+footer a:hover{
+    color: white;
+}
+footer{
+    background-color: rgb(177, 236, 12);
+    padding:10px;
+    text-align:center;
